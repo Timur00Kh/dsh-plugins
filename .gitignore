@@ -1,0 +1,27 @@
+# Dependencies and build output
+node_modules/
+dist/
+coverage/
+*.tgz
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local secrets and personal DSH configuration
+.env
+.env.*
+!.env.example
+auth.json
+.credentials.yaml
+.credentials.yaml.*
+cordis.patch.yml
+*.pem
+*.key
+*.log
+*.bak
+*.bak-*
+
+# Local machines and editors
+.DS_Store
+.idea/
+.vscode/
